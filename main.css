@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+.container{
+    width: 380px;
+    height: 5424px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+header{
+    width: 380px;
+    height: 590px;
+}
+nav{
+    display: flex;
+    width: 380px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    width: 163px;
+    height: 18px;
+}
+.nav-logo{
+    padding: 32px 188px 5374px 24px;
+    width: 163px;
+    height: 18px;
+}
+.list{
+    padding: 34px 24px 5375px 176px;
+}
+
+.hero{
+    display: flex;
+    margin: 40px 24px;
+    width: 327px;
+    height: 500px;
+    background-image: url(./images/Bitmap1.png);
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.hero-1{
+    margin: 100px 24px 99px;
+    text-align: center;
+    width: 279px;
+    height: 301px;
+    border: 1px solid;  
+}
+.hero-h1{
+    margin-top: -4px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
+.hero-p{
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+.hero-button{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 217px;
+    height: 56px;
+    border-radius: 6px;
+    background: #0E8784;
+}
+.herob-p{
+    list-style: none;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces' 9pt;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+}
+.hero-button:hover{
+    background-color: #6db9b7;
+}
+.herob-p:hover{
+    color: #ff8f8f;
+}
